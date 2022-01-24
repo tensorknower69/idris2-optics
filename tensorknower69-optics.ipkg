@@ -1,0 +1,57 @@
+package tensorknower69-optics
+version = 1.0.0.0
+authors = "tensorknower69"
+-- maintainers =
+license = "MIT"
+-- brief =
+-- readme =
+-- homepage =
+-- sourceloc =
+-- bugtracker =
+
+-- packages to add to search path
+depends = contrib
+
+-- modules to install
+modules = Control.Optics,
+          Control.Optics.Either,
+          Control.Optics.Getter,
+          Control.Optics.Lens,
+          Control.Optics.Pair,
+          Control.Optics.Prism,
+          Control.Optics.Review,
+          Control.Optics.Setter,
+          Control.Optics.State,
+          Control.Optics.Types,
+          Data.Functor.Tagged,
+          Data.Profunctor,
+          Data.Profunctor.Choice,
+          Data.Profunctor.Morphism
+
+-- main file (i.e. file to load at REPL)
+-- main =
+
+-- name of executable
+-- executable =
+-- opts =
+sourcedir = "src"
+-- builddir =
+-- outputdir =
+
+-- script to run before building
+-- prebuild =
+
+-- script to run after building
+-- postbuild =
+
+-- script to run after building, before installing
+-- preinstall =
+
+-- script to run after installing
+-- postinstall =
+
+-- script to run before cleaning
+-- preclean =
+
+-- script to run after cleaning
+-- postclean =
