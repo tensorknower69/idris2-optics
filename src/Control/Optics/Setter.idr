@@ -23,7 +23,7 @@ export
 (.~) : Setter s t a b -> b -> s -> t
 (.~) = set
 
-infixr 4 .~
+infixr 4 %~
 export
 (%~) : Setter s t a b -> (a -> b) -> s -> t
 (%~) = over
