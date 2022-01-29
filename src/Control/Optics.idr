@@ -9,3 +9,4 @@ import public Control.Optics.Review
 import public Control.Optics.Setter
 import public Control.Optics.State
 import public Control.Optics.Types
+import public Control.Optics.Vect

@@ -15,6 +15,7 @@ depends = contrib
 -- modules to install
 modules = Control.Optics,
           Control.Optics.Either,
+          Control.Optics.Vect,
           Control.Optics.Getter,
           Control.Optics.Lens,
           Control.Optics.Pair,
